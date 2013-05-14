@@ -1,0 +1,7 @@
+name: stackato-worker
+instances: 1
+framework:
+  type: standalone
+  runtime: python27
+command: python main.py
+mem: 256
