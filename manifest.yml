@@ -1,8 +1,5 @@
 applications:
 - name: stackato-worker
-  command: python main.py
-  framework:
-    name: standalone
   instances: 1
   mem: 256
-  runtime: python27
+  url: []
